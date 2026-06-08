@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "api_documents": {
+    "da2beda0e8d055277926550d577595b18c8862bcff1d44cb2138fd864a81433a": {
+      "doc_id": "pi-cmq4vbm8q028b01qx19gtcsz9",
+      "status": "submitted",
+      "file_name": "luat-phong-chong-ma-tuy-2021.pdf",
+      "path": "data/landing/legal/luat-phong-chong-ma-tuy-2021.pdf",
+      "sha256": "da2beda0e8d055277926550d577595b18c8862bcff1d44cb2138fd864a81433a",
+      "uploaded_at": "2026-06-08T07:07:06.119558+00:00"
+    },
+    "0bcaed25ce6ad3778c82e9a89810880762da611ff04107457748ddda1b42e8ac": {
+      "doc_id": "pi-cmq4vbokw028d01qxgc1ncyh5",
+      "status": "submitted",
+      "file_name": "nghi-dinh-105-2021.pdf",
+      "path": "data/landing/legal/nghi-dinh-105-2021.pdf",
+      "sha256": "0bcaed25ce6ad3778c82e9a89810880762da611ff04107457748ddda1b42e8ac",
+      "uploaded_at": "2026-06-08T07:07:09.113840+00:00"
+    },
+    "a053fce94b36ea3a660962bb4fab41e5296cbf0636872895c07758bd685a6c24": {
+      "doc_id": "pi-cmq4vbqvd028e01qxecs3k7av",
+      "status": "submitted",
+      "file_name": "nghi-dinh-28-2026.pdf",
+      "path": "data/landing/legal/nghi-dinh-28-2026.pdf",
+      "sha256": "a053fce94b36ea3a660962bb4fab41e5296cbf0636872895c07758bd685a6c24",
+      "uploaded_at": "2026-06-08T07:07:12.080522+00:00"
+    }
+  },
+  "updated_at": "2026-06-08T07:19:51.056928+00:00"
+}

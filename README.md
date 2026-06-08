@@ -498,10 +498,10 @@ run_dashboard()
 
 #### Deliverable Evaluation
 
-- [ ] File `group_project/evaluation/golden_dataset.json` — 15+ cặp Q&A
-- [ ] File `group_project/evaluation/eval_pipeline.py` — script chạy evaluation
-- [ ] File `group_project/evaluation/results.md` — bảng điểm + phân tích
-- [ ] So sánh A/B ít nhất 2 configs
+- [x] File `group_project/evaluation/golden_dataset.json` — 16 cặp Q&A
+- [x] File `group_project/evaluation/eval_pipeline.py` — script chạy evaluation
+- [x] File `group_project/evaluation/results.md` — bảng điểm + phân tích
+- [x] So sánh A/B: hybrid + rerank vs hybrid no rerank
 
 ---
 
@@ -518,7 +518,16 @@ run_dashboard()
 ### Kiến Trúc Hệ Thống
 
 ```
-[Vẽ diagram kiến trúc ở đây]
+Streamlit UI
+  -> Task 10 generate_with_citation
+      -> Task 9 retrieve
+          -> Task 5 semantic search
+              -> OpenAI text-embedding-3-small + Qdrant
+          -> Task 6 lexical search
+              -> Vietnamese-aware BM25
+          -> Task 7 RRF + Jina/OpenAI reranking
+          -> Task 8 PageIndex vectorless fallback
+      -> cited answer + source display
 ```
 
 ---
@@ -527,10 +536,12 @@ run_dashboard()
 
 | Thành viên | MSSV | Nhiệm vụ | Trạng thái |
 |-----------|------|----------|------------|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Nguyễn Tùng Lâm | 2A202600555 | Crawling dữ liệu, chuẩn hóa legal/news | Hoàn thành |
+| Cao Đặng Quốc Vương | 2A202600738 | Chunking, indexing, semantic search | Hoàn thành |
+| Đỗ Phan Hà | 2A202600543 | Lexical search, fusion, reranking | Hoàn thành |
+| Giáp Minh Hiếu | 2A202600667 | PageIndex vectorless fallback | Hoàn thành |
+| Nguyễn Thành Vinh | 2A202600971 | Generation có citation, prompt/reorder | Hoàn thành |
+| Đỗ Đức Anh | 2A202600976 | Streamlit chatbot, evaluation, docs/tests | Hoàn thành |
 
 ---
 
@@ -541,9 +552,13 @@ run_dashboard()
 pip install -r requirements.txt
 
 # Chạy app
-streamlit run app.py
-# hoặc
-chainlit run app.py
+streamlit run group_project/app.py
+
+# Chạy evaluation
+python group_project/evaluation/eval_pipeline.py
+
+# Chạy tests
+pytest tests/ -v
 ```
 
 ---

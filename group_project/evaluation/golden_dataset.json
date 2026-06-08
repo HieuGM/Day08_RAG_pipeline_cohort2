@@ -1,17 +1,82 @@
 [
   {
-    "question": "Hình phạt cho tội tàng trữ trái phép chất ma tuý theo Điều 249 Bộ luật Hình sự?",
-    "expected_answer": "Phạt tù từ 1 đến 5 năm đối với trường hợp tàng trữ từ 1g đến dưới 5g heroin hoặc cocaine, hoặc chất ma tuý khác với khối lượng tương đương.",
-    "expected_context": "Bộ luật Hình sự 2015, Điều 249"
+    "question": "Luật Phòng chống ma túy 2021 định nghĩa chất ma túy là gì?",
+    "expected_answer": "Chất ma túy là chất gây nghiện hoặc chất hướng thần thuộc danh mục chất ma túy do Chính phủ ban hành.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 2"
   },
   {
-    "question": "Luật Phòng chống ma tuý 2021 quy định những hình thức cai nghiện nào?",
-    "expected_answer": "Cai nghiện tự nguyện tại gia đình, cai nghiện tự nguyện tại cộng đồng, cai nghiện tự nguyện tại cơ sở cai nghiện, và cai nghiện bắt buộc tại cơ sở cai nghiện.",
-    "expected_context": "Luật Phòng chống ma tuý 2021, Chương V"
+    "question": "Chất gây nghiện được hiểu như thế nào trong Luật Phòng chống ma túy 2021?",
+    "expected_answer": "Chất gây nghiện là chất kích thích hoặc ức chế thần kinh, dễ gây tình trạng nghiện đối với người sử dụng.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 2"
   },
   {
-    "question": "Danh mục các chất ma tuý thuộc nhóm I theo quy định pháp luật Việt Nam gồm những chất nào?",
-    "expected_answer": "Nhóm I gồm các chất ma tuý tuyệt đối cấm sử dụng trong y học và đời sống, bao gồm heroin, cocaine, methamphetamine, MDMA (ecstasy), cannabis (cần sa), và các chất tương tự.",
-    "expected_context": "Nghị định 57/2022/NĐ-CP, Phụ lục I"
+    "question": "Chất hướng thần được định nghĩa như thế nào?",
+    "expected_answer": "Chất hướng thần là chất kích thích hoặc ức chế thần kinh hoặc gây ảo giác, nếu sử dụng nhiều lần có thể dẫn tới tình trạng nghiện.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 2"
+  },
+  {
+    "question": "Người sử dụng trái phép chất ma túy là ai?",
+    "expected_answer": "Người sử dụng trái phép chất ma túy là người sử dụng chất ma túy khi không được cơ quan hoặc người có thẩm quyền cho phép và có kết quả xét nghiệm dương tính.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 2"
+  },
+  {
+    "question": "Luật Phòng chống ma túy 2021 nghiêm cấm những hành vi nào liên quan đến sử dụng ma túy?",
+    "expected_answer": "Luật nghiêm cấm sử dụng, tổ chức sử dụng, cưỡng bức hoặc lôi kéo người khác sử dụng trái phép chất ma túy.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 5"
+  },
+  {
+    "question": "Cá nhân và gia đình có trách nhiệm gì trong phòng, chống ma túy?",
+    "expected_answer": "Cá nhân và gia đình có trách nhiệm giáo dục, quản lý, phòng ngừa, phát hiện, ngăn chặn và phối hợp với cơ quan có thẩm quyền trong phòng, chống ma túy.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 6"
+  },
+  {
+    "question": "Luật Phòng chống ma túy 2021 quy định những hình thức cai nghiện ma túy nào?",
+    "expected_answer": "Luật quy định cai nghiện ma túy tự nguyện và cai nghiện ma túy bắt buộc, bao gồm cai nghiện tại gia đình, cộng đồng hoặc cơ sở cai nghiện theo điều kiện luật định.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Chương V"
+  },
+  {
+    "question": "Người sử dụng trái phép chất ma túy có trách nhiệm gì theo Điều 24?",
+    "expected_answer": "Người sử dụng trái phép chất ma túy phải cung cấp thông tin, chấp hành quản lý, thực hiện xét nghiệm và tuân thủ yêu cầu của cơ quan có thẩm quyền.",
+    "expected_context": "Luật Phòng chống ma túy 2021, Điều 24"
+  },
+  {
+    "question": "Nghị định 105/2021 quy định đối tượng bị quản lý là ai?",
+    "expected_answer": "Đối tượng bị quản lý là người có hành vi sử dụng trái phép chất ma túy theo quy định của pháp luật.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP, Điều 37"
+  },
+  {
+    "question": "Nghị định 105/2021 quy định việc thu thập thông tin để lập hồ sơ quản lý người sử dụng trái phép chất ma túy như thế nào?",
+    "expected_answer": "Cơ quan chức năng thu thập thông tin, tài liệu liên quan để lập hồ sơ quản lý người sử dụng trái phép chất ma túy.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP, Điều 40"
+  },
+  {
+    "question": "Quyết định quản lý người sử dụng trái phép chất ma túy được quy định ở đâu trong Nghị định 105?",
+    "expected_answer": "Quyết định quản lý người sử dụng trái phép chất ma túy được quy định tại Điều 42 Nghị định 105/2021/NĐ-CP.",
+    "expected_context": "Nghị định 105/2021/NĐ-CP, Điều 42"
+  },
+  {
+    "question": "Nghị định 28/2026 ban hành nội dung gì liên quan đến ma túy?",
+    "expected_answer": "Nghị định 28/2026 ban hành hoặc cập nhật danh mục các chất ma túy, chất gây nghiện, chất hướng thần và tiền chất.",
+    "expected_context": "Nghị định 28/2026/NĐ-CP"
+  },
+  {
+    "question": "Chi Dân, An Tây và Trúc Phương bị điều tra về tội gì trong bài báo Tuổi Trẻ?",
+    "expected_answer": "Ba người bị khởi tố, bắt tạm giam để điều tra về tội tổ chức sử dụng trái phép chất ma túy.",
+    "expected_context": "Tuổi Trẻ, 2024, bài Chi Dân An Tây Trúc Phương"
+  },
+  {
+    "question": "Công an TP.HCM cho biết chuyên án ma túy liên quan Chi Dân An Tây đã mở rộng ra sao?",
+    "expected_answer": "Công an TP.HCM cho biết đã mở rộng điều tra chuyên án vận chuyển trái phép chất ma túy qua đường hàng không từ Pháp về Việt Nam và triệt phá nhiều đường dây, băng nhóm.",
+    "expected_context": "Tuổi Trẻ, 2024, chuyên án VN10"
+  },
+  {
+    "question": "Người mẫu Andrea Aybar bị tình nghi liên quan đến vấn đề gì?",
+    "expected_answer": "Andrea Aybar bị tình nghi liên quan đến ma túy theo bài báo đã thu thập.",
+    "expected_context": "Bài báo Andrea Aybar liên quan ma túy"
+  },
+  {
+    "question": "Diễn viên Lệ Hằng bị điều tra về hành vi gì?",
+    "expected_answer": "Diễn viên Lệ Hằng bị điều tra về hành vi bán ma túy theo bài báo đã thu thập.",
+    "expected_context": "Bài báo diễn viên Lệ Hằng bị điều tra bán ma túy"
   }
 ]

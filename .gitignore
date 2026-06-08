@@ -1,0 +1,11 @@
+.agents/
+.claude/
+.github/
+docs/
+plans/
+CLAUDE.md
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+logs/
